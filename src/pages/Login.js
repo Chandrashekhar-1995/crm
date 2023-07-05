@@ -20,6 +20,8 @@ function Login() {
                     <div className="input-group">
                         <input type="text" className="form-control m-1" placeholder="User id"/>
                     </div>
+                    { 
+                        showSignup &&
                     <>
                     <div className="input-group">
                         <input type="text" className="form-control m-1" placeholder="User Name"/>
@@ -39,7 +41,7 @@ function Login() {
                             <Dropdown.Item eventKey="ENGINEER">ENGINEER</Dropdown.Item>
                         </DropdownButton>
                     </div>
-                    </>
+                    </>}
                     <div className="input-group">
                         <input type="password" className="form-control m-1" placeholder="Password"/>
                     </div>
