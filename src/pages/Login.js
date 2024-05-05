@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 
 const Login = () => {
-  const [showSignup, setShowSignup] = useState(true);
+  const [showSignup, setShowSignup] = useState(false);
   const [userType, setUserType] = useState("CUSTOMER")
 
   const handleToggleForm = () => {
